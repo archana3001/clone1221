@@ -35,7 +35,38 @@
   border: none;
   color: #ffffff;
   margin-right: 40px;
+  cursor: pointer;
 
   // position: absolute;
   // right: 10px;
+}
+
+.Test-report {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  background-color: rgba(92, 92, 92, 0.288);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Test-report1 {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 80px;
+  height: 45%;
+  width: 35%;
+  background-color: #ffffff;
+  border-radius: 10px;
+
+  img {
+    height: 70px;
+  }
+}
+.Test-report-head {
+  display: flex;
+  justify-content: space-between;
 }
