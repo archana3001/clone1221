@@ -1,5 +1,4 @@
 .Test-main {
-  position: relative;
   height: 100%;
   width: 100%;
   // background-color: aquamarine;
@@ -56,7 +55,7 @@
 .Test-report1 {
   display: flex;
   flex-direction: column;
-  padding: 30px 80px;
+  padding: 30px 70px;
   height: 45%;
   width: 35%;
   background-color: #ffffff;
@@ -69,4 +68,45 @@
 .Test-report-head {
   display: flex;
   justify-content: space-between;
+  position: relative;
+}
+
+.Report-list {
+  border-width: 1px 0px;
+  border-color: rgb(211, 211, 211);
+  border-style: solid;
+  font-size: 20px;
+  color: rgb(85, 84, 84);
+  position: relative;
+}
+
+.Report-list span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #142683;
+  color: #fff;
+  margin: 25px 10px;
+  margin-right: 20px;
+  font-size: 15px;
+}
+.Report-list input {
+  position: absolute;
+  right: 5px;
+  margin-top: 20px;
+  border: 1.8px solid #142683;
+  border-radius: 4px;
+  height: 35px;
+  padding-left: 30px;
+  font-size: large;
+  color: #142683;
+  font-weight: 700;
+  width: 150px;
+}
+
+.Test-report1 button {
+  margin-top: 30px;
 }

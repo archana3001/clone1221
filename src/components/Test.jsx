@@ -19,10 +19,18 @@ function Test() {
                         <h1>Update Score</h1>
                         <img className='Test-img' src={imageurl} />
                     </div>
+
+                    <div className='Test-report-mid'>
+                        <div className='Report-list'>
+                            <span>1</span> Update your rank <input type="text" /><br />
+                            <span>2</span> Update your profile <input type="text" /><br />
+                            <span>3</span> Update you Score count <input type="text" /><br />
+
+                        </div>
+                    </div>
                     <button
                         className='Test-btn' onClick={() => {
                             setCount(null)
-                            console.log("jo")
                         }
                         }>Save </button>
                 </div>
