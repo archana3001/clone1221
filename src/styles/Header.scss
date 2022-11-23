@@ -1,0 +1,33 @@
+.Header-main {
+  height: 88px;
+  border-bottom: 1px solid #ebf0f5;
+  display: flex;
+  align-items: center;
+  position: relative;
+  //   justify-content: center;
+}
+
+.Header-profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  gap: 10px;
+
+  height: 44px;
+  width: 160px;
+
+  position: absolute;
+  //   left: 68.34%;
+  right: 5%;
+  //   top: 20%;
+  //   bottom: 20%;
+  border: 1px solid #ebf0f5;
+  border-radius: 10px;
+}
+
+.Header-logo {
+  position: absolute;
+  left: 2.5%;
+}

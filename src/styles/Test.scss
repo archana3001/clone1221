@@ -1,0 +1,41 @@
+.Test-main {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  // background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  // justify-content: ;
+  // padding: 0px 0px 0px 30px;
+  // padding-left: 40px;
+  // padding-right: 40px;
+  gap: 20px;
+}
+
+.Test-img {
+  margin-left: 40px;
+  //   width: 10px;
+}
+.Test-tag {
+  width: 70%;
+  // background-color: red;
+}
+.Test-btn {
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 44px;
+  background: #142683;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  border: none;
+  color: #ffffff;
+  margin-right: 40px;
+
+  // position: absolute;
+  // right: 10px;
+}
